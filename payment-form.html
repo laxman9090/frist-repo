@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment Form</title>
+</head>
+<body>
+    <form action="">
+        <h1>payment Form</h1>
+        <h2>Contact Informatio</h2> 
+        <p> required fileds are followed by*</p>
+        <p>Name: *<input type="text" name="name cappitals letters"required></p>
+         <fieldset> 
+             <legend>Gender</legend>
+             <p>
+        Male:* <input type="radio" name="gender" id="male" required >
+        Female:*<input type="radio" name="gender" id="female"required >
+        Other:*<input type="radio" name="gender" id="other"required>
+    </fieldset>
+       <p>Address:*<textarea name="Addrress"id="Address" cols="100" rows=" 1" required></textarea></p>
+       <hr>
+       <p>Email*: <input type=email" id="email"required></p>
+       <p> Tq  <input type="Tq name" id="tq name "></p>
+       <p>pincode*: <input type="number"name="pincode" id="pincode"required></p>
+       <h2>payment Information</h2>
+       <p>Card type*:
+           <select name="card_type "id="card_type"required>
+               <option value="">-- select a card Type--</option>
+               <option value="Viasa">Visa</option>
+               <option value="rupay">rupay</option>
+               <option value="master card">master card </option>
+               <option value="google pe">Google pe</option>
+             </select>
+            </p>
+            <p>
+                Card Number:* <input type="number" name="card_number" id="card_number"required>
+            </p>
+            <p>
+                 Expiry Date:* <input type="date" name="exp_date" id="exp_date"required>
+            </p>
+            <p>
+
+            </p>
+            <p>
+                CVV:* <input type="password" name="cvv" id="cvv"required></p>
+                <input type="submit"value="paynow">
+                <p>
+                <input type="submit" value="payment successfully">
+                </p>
+                <p>
+                    <input type="cansal payment" value=" cansal payment">
+               
+                </p>
+                
+  </form>
+</body>
+</html>
